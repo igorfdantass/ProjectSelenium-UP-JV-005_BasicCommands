@@ -8,7 +8,7 @@ public class SeleniumElements {
 //        ChromeDriver driver = new ChromeDriver();
 //    }
 
-//Forma 3 - The Path Enviroment Variable
+//Forma 3 - The Path Enviroment Variable (Recomendado)
 //    public SeleniumElements(){
 //        driver = new ChromeDriver();
 //    }
