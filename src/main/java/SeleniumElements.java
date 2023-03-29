@@ -1,4 +1,5 @@
 import org.openqa.selenium.chrome.ChromeDriver;
+
 public class SeleniumElements {
     ChromeDriver driver;
 
@@ -9,8 +10,8 @@ public class SeleniumElements {
 //    }
 
 //Forma 3 - The Path Enviroment Variable (Recomendado)
-//    public SeleniumElements(){
-//        driver = new ChromeDriver();
-//    }
+    public SeleniumElements(){
+        driver = new ChromeDriver();
+    }
 
 }
