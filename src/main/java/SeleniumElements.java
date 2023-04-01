@@ -1,7 +1,7 @@
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class SeleniumElements {
-    ChromeDriver driver;
+    public ChromeDriver driver;
 
 //Forma 4 - Hard Coded Location
 //    public SeleniumElements(){
@@ -13,5 +13,8 @@ public class SeleniumElements {
     public SeleniumElements(){
         driver = new ChromeDriver();
     }
+
+
+
 
 }
