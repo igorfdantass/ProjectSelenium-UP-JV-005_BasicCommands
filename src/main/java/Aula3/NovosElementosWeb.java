@@ -2,11 +2,15 @@ package Aula3;
 
 import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 public class NovosElementosWeb {
     ChromeDriver driver;
 
     public NovosElementosWeb(){
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--remote-allow-origins=*");
+        driver = new ChromeDriver(options);
         novosElementos();
     }
 
@@ -19,6 +23,6 @@ public class NovosElementosWeb {
 
     public void novosElementos(){
         driver.get("https://www.selenium.dev/selenium/web/web-form.html");
-        
+
     }
 }
