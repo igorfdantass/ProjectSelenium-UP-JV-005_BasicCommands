@@ -1,12 +1,19 @@
+import Aula3.NovosElementosWeb;
+
 public class SeleniumTest {
     public static void main(String[] args) {
-        //SeleniumElements test = new SeleniumElements();
+        //Aula2.SeleniumElements test = new Aula2.SeleniumElements();
         //SeleniumFireFoxElements testFireFox = new SeleniumFireFoxElements();
-        //SeleniumEdgeElements testEdge = new SeleniumEdgeElements();
+        //Aula2.SeleniumEdgeElements testEdge = new Aula2.SeleniumEdgeElements();
 
         //Aula2
-        BasicInterations test = new BasicInterations();
-        test.fazInteracoesBasicas();
+//        BasicInterations test = new BasicInterations();
+//        test.fazInteracoesBasicas();
+
+
+        //Aula3
+        NovosElementosWeb new_obj = new NovosElementosWeb();
+
 
     }
 }
