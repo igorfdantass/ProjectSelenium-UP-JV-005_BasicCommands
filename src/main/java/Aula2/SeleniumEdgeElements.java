@@ -1,3 +1,5 @@
+package Aula2;
+
 import org.openqa.selenium.edge.EdgeDriver;
 
 public class SeleniumEdgeElements {
